@@ -1,0 +1,132 @@
+/* General page styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #30ac59;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* button and game area styles */
+#new-game {
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  position: relative;
+  background-color: #b8b8b8;
+  margin: 10px auto;
+  width: 190px;
+  height: 190px;
+  text-align: center;
+}
+
+#game {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: #b8b8b8;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.square {
+  float: left;
+  height: 20px;
+  width: 20px;
+  background:#b8b8b8;
+  border: 1px solid #818181;
+}
+
+.mine {
+  background: url('../img/mine.gif');
+  background-size: cover;
+}
+
+.one {
+  background: url('../img/one.gif');
+  background-size: cover;
+}
+
+.two {
+  background: url('../img/two.gif');
+  background-size: cover;
+}
+
+.three {
+  background: url('../img/three.gif');
+  background-size: cover;
+}
+
+.four {
+  background: url('../img/four.gif');
+  background-size: cover;
+}
+
+.five {
+  background: url('../img/five.gif');
+  background-size: cover;
+}
+
+.six {
+  background: url('../img/six.gif');
+  background-size: cover;
+}
+
+.seven {
+  background: url('../img/seven.gif');
+  background-size: cover;
+}
+
+.eight {
+  background: url('../img/eight.gif');
+  background-size: cover;
+}
+
+.hidden {
+  background: url('../img/hidden.gif');
+  background-size: cover;
+}
+
+.flagged {
+  background: url('../img/flagged.gif');
+  background-size: cover;
+}
+
+#rules {
+  margin: 20px auto;
+  width: 600px;
+  text-align: center;
+}
+
